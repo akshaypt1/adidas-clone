@@ -117,37 +117,24 @@ body{
 
 }
 .imageb{
-    width: 50%;
+    width: 100%;
     height: 600px;
-    background-image: url("shoes1-removebg-preview.png");
+    background-image: url("aaaaaa.avif");
     background-repeat: no-repeat;
 background-size: cover;
-    position: relative;
-    left: 600px;
 
     
 }
 .img{
-    
+    width: 100%;
     display: flex;
-    background-color:#cd8cccf7 ;
-}
-.text1{
-    text-align: center;
-    background-color: yellow;
-    height: 60px;
-    width: 170px;
-    border-radius: 30px;
-    position: relative;
-    right: 710px;
-    padding-bottom: 20px;
     
 }
 .text2{
     height: 100px;
     position: relative;
+    left: 90px;
     top: 400px;
-    right: 800px;
 
 
 }
@@ -155,8 +142,8 @@ background-size: cover;
     width:360px;
     height:50px ;
     position: relative;
-    bottom: 70px;
-    left: 55px;
+    top: 400px;
+    left:90px;
     justify-content: space-between;
 }
 .b1{
@@ -240,6 +227,7 @@ font-size: 15px;
 }
 .div5{
     width: 100%;
+    height: 400px;
     display: flex;
     padding-left:120px ;
 }
@@ -304,6 +292,30 @@ font-size: 15px;
     background-color: rgb(246, 245, 241);
     position: relative;
     bottom: 80px;
+}
+.div5child{
+    height: 50px;
+    padding-left: 120px;
+    font-family: Arial, sans-serif;
+
+}
+.div6{
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:120px ;
+    gap: 10px;
+
+}
+.video{
+    width: 100%;
+    display: flex;
+    padding-left:5px ;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+}
+h5{
+    color: #5a5959;
 }
 
 
