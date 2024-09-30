@@ -317,6 +317,73 @@ font-size: 15px;
 h5{
     color: #5a5959;
 }
+.div7{
+    height: 800px;
+    width: 100%;
+    background-image: url("div7.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 30px;
+}
+.div7text1{
+    height: 30px;
+    width: 90px;
+    background-color: #000;
+    color: white;
+    position: relative;
+    top: 600px;
+    left: 120px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
+.div7text2{
+    height: 20px;
+    width: 310px;
+    background-color: #000;
+    color: rgb(230, 226, 226);
+    position: relative;
+    top: 605px;
+    left: 120px;
+    font-size: 15px;
+    
+    font-family: Arial, sans-serif;
+}
+.div7text3{
+    height: 40px;
+    width: 150px;
+    background-color: #000;
+    color: rgb(241, 239, 239);
+    position: relative;
+    top: 615px;
+    left: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.div8top{
+    height: 40px;
+    width:100% ;
+    font-size: 30px;
+    padding-left: 120px;
+    font-weight: 600;
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+}
+.div8{
+    height: 400px;
+    width: 100%;
+    display: flex;
+
+}
+.div81{
+    width: 100px;
+}
+
 
 
 
