@@ -1,4 +1,5 @@
 body{
+    width: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
 
@@ -7,7 +8,8 @@ body{
     width: 100%;
 }
 .nav{
-    width: 100%px;
+    height: 40px;
+    width: 100%;
     display: flex;
     background-color: aliceblue;
     flex-direction: column;
@@ -15,6 +17,10 @@ body{
     padding: 10px 20px;
     padding-top: 40px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    position: relative;
+    bottom: 10px;
 }
 
 
@@ -54,7 +60,7 @@ body{
     gap: 20px;
     margin-top: 10px; 
     position: absolute;
-    left: 450px;
+    left: 690px;
 }
 
 .nav-items li a {
@@ -72,8 +78,9 @@ body{
     display: flex;
     align-items: center;
     margin-top: 10px; 
-    position: absolute;
-    left: 1000px;
+    position: relative;
+    left: 1550px;
+    bottom: 59px;
 }
 
 .search-container input {
@@ -93,8 +100,9 @@ body{
     display: flex;
     gap: 20px;
     margin-top: 10px; 
-    position: absolute;
-    left: 1200px;
+    position: relative;
+    left: 1750px;
+    bottom: 90px;
 }
 
 .icon {
@@ -118,7 +126,7 @@ body{
 }
 .imageb{
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-image: url("aaaaaa.avif");
     background-repeat: no-repeat;
 background-size: cover;
@@ -133,8 +141,8 @@ background-size: cover;
 .text2{
     height: 100px;
     position: relative;
-    left: 90px;
-    top: 400px;
+    left: 180px;
+    top: 600px;
 
 
 }
@@ -142,8 +150,8 @@ background-size: cover;
     width:360px;
     height:50px ;
     position: relative;
-    top: 400px;
-    left:90px;
+    top: 600px;
+    left:180px;
     justify-content: space-between;
 }
 .b1{
@@ -165,35 +173,35 @@ background-size: cover;
     font-family: Arial, sans-serif;
 }
 .text3{
-    padding-left: 30px;
+    padding-left: 175px;
     font-family: Arial, sans-serif;
 }
 .text4{
 font-size: 15px;
-    padding-left: 30px;
+    padding-left: 175px;
     color: #4a4a4b;
 }
 .imagein2{
     display: flex;
-    padding-left: 80px;
-    gap: 10px;
+    padding-left: 175px;
+    gap: 20px;
 
 }
 .div3{
+    width: 100%;
     margin: 0PX;
     background-image: url("div2.avif");
     background-repeat: no-repeat;
     background-size: cover;
-    
-    height:620px; 
+    height:900px; 
 }
 .child1in3{
     background-color: white;
     width: 140px;
     height: 30PX;
     position: relative;
-    left: 130px;
-    top: 460px;
+    left: 170px;
+    top: 690px;
     font-weight: 900;
     font-family: Arial, sans-serif;
     padding-top:10px;
@@ -207,19 +215,18 @@ font-size: 15px;
     font-weight: 900;
     font-family: Arial, sans-serif;
     position: relative;
-    left: 130px;
-    top: 470px;
+    left: 170px;
+    top: 700px;
 
 }
 .div4child{
     height: 50px;
-    padding-left: 120px;
+    padding-left: 160px;
     font-family: Arial, sans-serif;
     padding-top: 4px;
 }
 .div4{
-    padding-left: 120px;
-    height: 550px;
+    padding-left: 160px;
     width: 100%;
     display: flex;
     gap: 10px;
@@ -229,12 +236,13 @@ font-size: 15px;
     width: 100%;
     height: 400px;
     display: flex;
-    padding-left:120px ;
+    padding-left:160px ;
 }
 .button{
     gap: 20px;
     display: flex;
-    padding-left:120px ;
+    padding-left:160px ;
+    padding-top: 40px;
     height: 40px;
 }
 .button1{
@@ -263,7 +271,7 @@ font-size: 15px;
     display: flex;
     width: 100%;
     height: 500px;
-    gap: 10px;
+    gap: 20px;
 }
 .price1{
     width:100px ;
@@ -295,23 +303,24 @@ font-size: 15px;
 }
 .div5child{
     height: 50px;
-    padding-left: 120px;
+    padding-left: 160px;
     font-family: Arial, sans-serif;
 
 }
 .div6{
-    height: 600px;
+    
     display: flex;
     flex-wrap: wrap;
-    padding-left:120px ;
+    padding-left:160px ;
     gap: 10px;
+    height: 750px;
 
 }
 .video{
     width: 100%;
     display: flex;
     padding-left:5px ;
-    gap: 10px;
+    gap: 15px;
     font-family: Arial, sans-serif;
 }
 h5{
@@ -324,6 +333,7 @@ h5{
     background-repeat: no-repeat;
     background-size: cover;
     padding-right: 30px;
+    
 }
 .div7text1{
     height: 30px;
@@ -332,7 +342,7 @@ h5{
     color: white;
     position: relative;
     top: 600px;
-    left: 120px;
+    left: 160px;
     padding-bottom: 5px;
     padding-left: 3px;
     font-size: 25px;
@@ -346,7 +356,7 @@ h5{
     color: rgb(230, 226, 226);
     position: relative;
     top: 605px;
-    left: 120px;
+    left: 160px;
     font-size: 15px;
     
     font-family: Arial, sans-serif;
@@ -358,7 +368,7 @@ h5{
     color: rgb(241, 239, 239);
     position: relative;
     top: 615px;
-    left: 120px;
+    left: 160px;
     font-size: 20px;
     font-weight: 600;
     font-family: Arial, sans-serif;
@@ -369,7 +379,7 @@ h5{
     height: 40px;
     width:100% ;
     font-size: 30px;
-    padding-left: 120px;
+    padding-left: 160px;
     font-weight: 600;
     padding-top: 30px;
     font-family: Arial, sans-serif;
@@ -379,14 +389,14 @@ h5{
     height: 150px;
     width: 100%;
     display: flex;
-    gap: 80px;
+    gap: 330px;
     font-family: Arial, sans-serif;
     font-size: 14px;
 
 }
 .div81{
     width: 320px;
-    padding-left: 120px;
+    padding-left: 160px;
     font-family: Arial, sans-serif;
     
 }
@@ -405,10 +415,11 @@ color: #050505;
     
 }
 .divvv{
+    padding-left: 35px;
     height: 200px;
     width: 100%;
     display: flex;
-    gap: 80px;
+    gap: 330px;
     font-family: Arial, sans-serif;
     font-size: 14px;
 
@@ -431,14 +442,14 @@ color: #050505;
 .buttonin9{
     gap: 20px;
     display: flex;
-    padding-left:120px ;
+    padding-left:160px ;
     height: 40px;
 }
 .div9{
     width: 100%;
     height: 400px;
     display: flex;
-    padding-left:120px ;
+    padding-left:160px ;
 }
 .image9{
     padding-top: 15px;
@@ -461,14 +472,14 @@ color: #050505;
 }
 .div10child{
     height: 50px;
-    padding-left: 120px;
+    padding-left: 160px;
     font-family: Arial, sans-serif;
     padding-top: 20px;
 
 }
 .div10{
     padding-top: 15px;
-    padding-left: 120px;
+    padding-left: 160px;
     height: 650px;
     width: 100%;
     display: flex;
@@ -478,13 +489,13 @@ color: #050505;
 .div11{
     background-color: #000;
     height: 650px;
-    width: 1370px;
+    width: 100%;
 }
 .textin11{
     height:450px ;
     width:600px;
     position: relative;
-    left: 400px;
+    left: 600px;
     top: 50px;
     color: rgb(237, 232, 232);
     font-weight: 2px;
@@ -514,7 +525,7 @@ color: #050505;
     font-size: 30px;
     font-weight: bolder;
     font-family: Arial, sans-serif;
-    padding-left: 450px;
+    padding-left: 650px;
     padding-top: 40px;
 }
 .bn12{
