@@ -60,7 +60,7 @@ body{
     gap: 20px;
     margin-top: 10px; 
     position: absolute;
-    left: 690px;
+    left: 740px;
 }
 
 .nav-items li a {
@@ -251,9 +251,12 @@ body{
     padding-top: 20px;
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 380px;
     gap: 20px;
     padding-left: 40px;
+    overflow: auto;
+    cursor: pointer;
+    
 }
 .price1{
     width:100px ;
@@ -294,15 +297,15 @@ body{
     height: 400px;
     display: flex;
     padding-left:160px ;
-    overflow: auto;
-    cursor: pointer;
 }
 .image9{
     padding-top: 15px;
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 390px;
     gap: 10px;
+    overflow: auto;
+    cursor: pointer;
 
 }
 .button91{
@@ -333,7 +336,10 @@ body{
     padding-left:5px ;
     gap: 15px;
     font-family: Arial, sans-serif;
-}
+    overflow: auto;
+    cursor: pointer;
+}overflow: auto;
+cursor: pointer;
 .div11{
     background-color:white;
     height: 400px;
